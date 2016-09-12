@@ -34,6 +34,8 @@ import com.ibm.rchland.mfgapps.client.utils.event.IGSDateSelectedListener;
 public class IGSCalendar
 	implements ActionListener
 {
+	
+	//Check if trigger automatically other jobs in jenkins
 	/** The action command for changing the selected date. */
 	public static final String CHANGE_SELECTED_DATE = "changeSelectedDate"; //$NON-NLS-1$
 
